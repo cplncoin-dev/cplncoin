@@ -136,7 +136,8 @@ struct CheckpointData {
   const char* blockId;
 };
 
-const std::initializer_list<CheckpointData> CHECKPOINTS = {  };
+const std::initializer_list<CheckpointData> CHECKPOINTS = { {15000, "277f3e7b7a506cb9508d5329b70fea6f0dc2fceb5b74711abe2a237b5961ca4b"}
+ };
 
 } // CryptoNote
 
